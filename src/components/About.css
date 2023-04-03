@@ -99,11 +99,12 @@
     margin-left: 1rem;
   }
   .quotes {
+    width: 100%;
     margin-top: 3rem;
     margin-left: 1rem;
   }
   .quotes p {
-    font-size: 4rem;
+    font-size:3.5rem;
   }
   .section-2 {
     flex-direction: column;
