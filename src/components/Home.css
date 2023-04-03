@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
+.home-section {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(10, 10, 10);
+}
+
+.home-about p {
+  background-color: rgba(0, 0, 0, 0.323);
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 6rem;
+  color: white;
+  padding: 10px;
+}
+
+.home-about p:nth-child(1){
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+
+.home-about p:nth-child(2){
+  margin-left: 10rem;
+  margin-top: 11.5rem;
+}
+
+.home-about p:nth-child(3){
+  margin-left: 15rem;
+  margin-top: 20rem;
+}
+
+.home-section p {
+  margin: 0;
+}
+
+.home-foot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 3.5rem;
+}
+
+.home-foot {
+  bottom: 4rem;
+  display: flex;
+}
+
+.home-foot p {
+  text-decoration: none;
+  font-family: "Nanum Myeongjo", serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.home-foot a{
+  text-decoration: dotted;
+}
+
+.home3dbox {
+  position: absolute;
+  top: 0;
+  left: 16%;
+  z-index: 0;
+  width: 65%;
+  height: 100vh;
+}
+
+.round-logo {
+  pointer-events: none;
+  position: relative;
+  left: 62rem;
+  width: 20rem;
+  height: 20rem;
+  animation: spin 10s linear infinite;
+}
+
+html {
+  cursor: url('../assets/cursor1.png'), auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-section{
+        overflow: hidden;
+        height: 100%;
+    }
+  .home-about p {
+    font-size: 2.5rem;
+    color: white;
+    padding: 10px;
+  }
+  .home-section {
+    position: relative;
+  }
+  .home-foot {
+    position: absolute;
+    bottom: 2rem;
+    left: 15%;
+    z-index: 10;
+  }
+  .home-foot p{
+    background-color: rgba(0, 0, 0, 0.47);
+  }
+  .home3dbox {
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .home-about p:nth-child(1){
+    margin-left: 1rem;
+    margin-top: 6rem;
+  }
+  
+  .home-about p:nth-child(2){
+    margin-left: 1rem;
+    margin-top: 10.5rem;
+  }
+  
+  .home-about p:nth-child(3){
+    margin-left: 1rem;
+    margin-top: 15rem;
+  }
+  .round-logo {
+    pointer-events: none;
+    position: relative;
+    top: 20rem;
+    left: 10rem;
+    width: 15rem;
+    height: 15rem;
+    animation: spin 10s linear infinite;
+  }
+}
