@@ -9,7 +9,7 @@ function Home() {
       <div className="home-about">
         <p>HELLO, I'M</p>
         <p>DEEPAN GANTH </p>
-        <p>3D GRAPHIC DESIGNER</p>
+        <p>3D WEB DESIGNER</p>
       </div>
       <div className="home-foot">
         <a href="https://dribbble.com/dev_deepan" target="_blank" rel="noreferrer"><p>Dribbble</p></a>
