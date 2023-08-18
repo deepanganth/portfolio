@@ -96,6 +96,6 @@
     font-size: 4rem;
   }
   .work {
-    height: 570vh;
+    height: fit-content;
   }
 }
